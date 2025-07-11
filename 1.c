@@ -15,3 +15,13 @@ int main(){
     }
     return 0;
 }
+
+
+
+
+// This will make the rectanglw with the *
+// for example 
+// * * * * * * * * * *
+// * * * * * * * * * *
+// * * * * * * * * * *
+// * * * * * * * * * *
