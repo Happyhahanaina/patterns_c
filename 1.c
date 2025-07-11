@@ -7,21 +7,18 @@ int main(){
     printf("Enter the number of columns: ");
     scanf("%d", &m);
     
-    for(int i =0; i< n;i++){
-        for(int j = 0;j<m ;j++){
-            printf("* ");
+    for(int i =1; i<=n;i++){
+        for(int j = 1;j<=m ;j++){
+            printf("%d ",j);
         }
         printf("\n");
     }
     return 0;
 }
 
-
-
-
-// This will make the rectanglw with the *
+// This will make the rectangle of mumbers 
 // for example 
-// * * * * * * * * * *
-// * * * * * * * * * *
-// * * * * * * * * * *
-// * * * * * * * * * *
+// 1 2 3 4
+// 1 2 3 4
+// 1 2 3 4
+// 1 2 3 4
